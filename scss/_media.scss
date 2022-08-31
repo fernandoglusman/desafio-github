@@ -1,0 +1,92 @@
+/* responsive */
+
+@media(max-width: 760px) {
+    /*header*/
+    .esconder-menu, 
+    .mostrar-menu {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(150, 150, 150);
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+
+        a {
+            display: block;
+            padding: 20px;
+    
+        }
+    }
+
+
+    .esconder-menu {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+
+    }
+
+    #check:checked ~ .menu {
+        right: 0;
+
+    }
+    .boton-ingresar {
+        text-decoration: none;
+        color: rgb(127, 255, 212);
+        border: 1px solid white;
+        padding: 10px 5px;
+        align-self: baseline;
+        padding-left:80px;
+        padding-right: 80px;
+
+}
+
+.contenido-banner {
+    position: relative;
+    color: rgb(127, 255, 212);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    h3{
+        font-size: 20px;
+        font-weight: 300;
+        padding: 5px 0px;
+    
+     }
+     p {
+        font-size: 15px;
+        padding-left: 50px;
+
+    }
+}
+
+
+.enti h2{
+    background:  rgb(127, 255, 212);
+    height: 100px;
+    font-family: 'Great Vibes', cursive;
+    color:  rgb(26, 3, 33);
+    font-size: 50px;
+    display: flex;
+    flex-direction: inline;
+    justify-content: center;
+    padding-left: 50px;
+ }
+
+
+}

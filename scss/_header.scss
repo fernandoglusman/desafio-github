@@ -1,0 +1,49 @@
+/* header */
+
+header {
+    height: 100px;
+    background: $color-nav;
+    padding: 0 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    color: rgb(127, 255, 212);
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.mostrar-menu, .esconder-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu {
+    order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu:hover ,
+.esconder-menu:hover {
+    background: rgb(150, 150, 150);
+    box-shadow: 10px 10px 50px 10px violet;
+}
+
+#check {
+    display: none;
+
+}
