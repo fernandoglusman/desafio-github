@@ -56,17 +56,17 @@ header {
 #banner {
   padding: 0 50px;
   background-image: url(../imagenes/fondofrutas2.jpg);
-  height: 45vh;
+  height: 30vh;
   background-size: cover;
   background-position: center;
+  align-items: center;
 }
 
 #banner::before {
   content: "";
   background: rgb(26, 3, 33);
-  position: absolute;
   width: 100%;
-  height: 45vh;
+  height: 20vh;
   left: 0;
 }
 
@@ -82,6 +82,7 @@ header {
   font-size: 30px;
   font-weight: 400;
   padding: 10px 0px;
+  color: rgb(26, 3, 33);
 }
 .contenido-banner p {
   font-size: 20px;
@@ -146,7 +147,7 @@ header {
     z-index: 100;
     transition: 0.8s;
   }
-  .menu a {
+  a {
     display: block;
     padding: 20px;
   }
@@ -163,28 +164,26 @@ header {
     color: rgb(127, 255, 212);
     border: 1px solid white;
     padding: 10px 5px;
-    align-self: baseline;
     padding-left: 80px;
     padding-right: 80px;
   }
   .contenido-banner {
-    position: relative;
     color: rgb(127, 255, 212);
     height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .contenido-banner p {
-    font-size: 20px;
+  p {
+    font-size: 40px;
     padding-left: 0px;
   }
-  .contenido-banner h3 {
+  h3 {
     font-size: 20px;
     font-weight: 300;
     padding: 5px 0px;
   }
-  .contenido-banner p {
+  p {
     font-size: 15px;
     padding-left: 50px;
   }
@@ -197,7 +196,7 @@ header {
     display: flex;
     flex-direction: inline;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 70px;
   }
 }
 .btn {

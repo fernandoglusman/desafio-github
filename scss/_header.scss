@@ -2,7 +2,7 @@
 
 header {
     height: 100px;
-    background: $colorNav;
+    background: $color-primario;
     padding: 0 50px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -12,7 +12,7 @@ header {
 }
 
 .logo {
-    color: rgb(127, 255, 212);
+    color: $color-secundario;
     font-family: 'Great Vibes', cursive;
     font-size: 50px;
 

@@ -3,16 +3,16 @@
 #banner {
     padding: 0 50px;
     background-image: url(../imagenes/fondofrutas2.jpg);
-    height: 45vh;
+    height: 30vh;
     background-size: cover;
     background-position: center;
+    align-items: center;
 }
 #banner::before {
     content: '';
-    background: $colorNav;
-    position: absolute;
+    background: $color-primario;
     width: 100%;
-    height: 45vh;
+    height: 20vh;
     left: 0;
 
 }
@@ -29,6 +29,7 @@
         font-size: 30px;
         font-weight: 400;
         padding: 10px 0px;
+        color: $color-primario;
          }
           p {
             font-size: 20px;
@@ -50,7 +51,7 @@
     padding-right: 140px;
 
     &:hover {
-        background: $colorNav;
+        background: $color-primario;
         transition: all 2.8s ;
         color: white;
         border-radius: 24px;
@@ -63,7 +64,7 @@
    background:  rgb(127, 255, 212);
    height: 100px;
    font-family: 'Great Vibes', cursive;
-   color: $colorNav;
+   color: $color-primario;
    font-size: 50px;
    display: flex;
    flex-direction: column;

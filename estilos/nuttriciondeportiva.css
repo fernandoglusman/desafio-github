@@ -1,4 +1,4 @@
-* {
+esti* {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -199,7 +199,6 @@ text-decoration: none;
     padding-top: 20px;
     padding-left: 300px;
     padding-right: 300px;
-    background-color: ;
 }
 
 .perdida--peso1 h3 {
@@ -245,6 +244,10 @@ color: white;
 
 .box2 div {
 margin: 5px;
+}
+
+.navbar {
+    background-color: aqua;
 }
 
 /* responsive */
