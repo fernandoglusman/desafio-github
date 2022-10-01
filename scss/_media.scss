@@ -19,12 +19,14 @@
         z-index: 100;
         transition: 0.8s;
 
+    }
+
         a {
             display: block;
             padding: 20px;
     
         }
-    }
+    
 
 
     .esconder-menu {
@@ -43,22 +45,20 @@
         color: rgb(127, 255, 212);
         border: 1px solid white;
         padding: 10px 5px;
-        align-self: baseline;
         padding-left:80px;
         padding-right: 80px;
 
 }
 
 .contenido-banner {
-    position: relative;
-    color: rgb(127, 255, 212);
+    color: $color-secundario;
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;}
 
     p {
-        font-size: 20px;
+        font-size: 40px;
         padding-left: 0px;
     }
 
@@ -73,7 +73,6 @@
         padding-left: 50px;
 
     }
-}
 
 
 .enti h2{
@@ -85,8 +84,7 @@
     display: flex;
     flex-direction: inline;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 70px;
  }
-
-
 }
+
